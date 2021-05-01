@@ -1,0 +1,24 @@
+{
+  "name": "unpack-and-fix-zip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "scripts": {
+    "start": "node --trace-warnings ./index.cjs",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaspernj/unpack-and-fix-zip.git"
+  },
+  "author": "k@spernj.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaspernj/unpack-and-fix-zip/issues"
+  },
+  "homepage": "https://github.com/kaspernj/unpack-and-fix-zip#readme",
+  "dependencies": {
+    "@kaspernj/object-digger": "^1.0.2",
+    "yauzl": "^2.10.0"
+  }
+}
